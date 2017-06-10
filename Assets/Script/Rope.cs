@@ -9,7 +9,9 @@ using System.Collections.Generic;
 
 public class Rope : MonoBehaviour {
 
-	
+    public HingeJoint2D hook; 
+    public GameObject linkPref;
+
 	void Start () 
 	{
 		
